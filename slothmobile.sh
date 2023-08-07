@@ -2,5 +2,4 @@
 
 echo 0 > mode
 
-wlr-randr \
-	--output eDP-1 --mode 1920x1080 --pos 0,0 --transform normal \
+hyprctl keyword monitor eDP-1, highres, 0x0, 1

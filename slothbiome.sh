@@ -2,5 +2,6 @@
 
 echo 1 > mode
 
-wlr-randr \
-	--output eDP-1 --mode 1920x1080 --pos 0,0 --transform normal \
+hyprctl keyword monitor desc:LG Electronics LG ULTRAWIDE 0x000C2C13, preferred, 0x0, 1
+hyprctl keyword monitor eDP-1, highres, 3440x0, 1
+hyprctl keyword monitor  desc:Dell Inc. DELL U2412M 7XTXG65U1GEL, preferred, 5360x0, 1
