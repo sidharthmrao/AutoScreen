@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo 1 > mode
+echo 1 > /home/sloth/.config/hypr/monitor_configs/mode
 
 hyprctl keyword monitor desc:LG Electronics LG ULTRAWIDE 0x000C2C13, preferred, 0x0, 1
 hyprctl keyword monitor eDP-1, highres, 3440x0, 1
